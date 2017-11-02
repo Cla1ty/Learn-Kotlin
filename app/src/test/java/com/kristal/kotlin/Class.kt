@@ -16,4 +16,7 @@ open class Person(
     init {
         Log.i("A", "Customer initialized with value $name")
     }
+
+    fun addHobby(hoby :String){}
+    fun removeHobby(hoby :String){}
 }
